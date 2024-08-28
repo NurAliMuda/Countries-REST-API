@@ -3,7 +3,7 @@ import React from 'react'
 const Filter = ({searchQuery, setSearchQuery, selectedRegion, setSelectedRegion}) => {
   return (
     <section className='filter'>
-        <div className='region-filter'>
+        <div className='region'>
             <select name ='select' id='select' className='select'
             value={selectedRegion}
             onChange={(e) => setSelectedRegion(e.target.value)}>
